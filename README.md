@@ -9,4 +9,5 @@ W niniejszym repozytorium można znaleźć następujące pliki:
 - **utils.py** - plik zawierający pomocnicze klasy i funkcje, stosowane przez wcześniejsze skrypty
 - **dataset** - katalog zawierający obrazy z symbolami: iksów, kółek i plansz
 - **tests** - katalog zawiera zdjęcia, na których znajdują się plansze z grami; te zdjęcia służą do testowania działania programu **kik.py**
+- **knn_predict.py** - plik zawierający implementacje predyktora odpowiedzialnego za predykcję elementu z gry kółko i krzyżyk na podstawie zdjęcia elementu. Podczas pracy nad projektem predyktor osiągnął dostateczną precyzję. Z powodu trudności implementacyjnych predyktor nie został ostatecznie wykorzystany w projekcie.
 
