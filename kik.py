@@ -238,10 +238,10 @@ def main():
         contours = list(filter(lambda x: len(x) > 130, contours))
 
         board, circles, crosses, central_fields = segregate_objects(contours)
-        orig.show_with_contours([board])
-        orig.show_with_contours(circles)
-        orig.show_with_contours(crosses)
-        orig.show_with_contours(map(approximate_polygon, central_fields))
+        # orig.show_with_contours([board])
+        # orig.show_with_contours(circles)
+        # orig.show_with_contours(crosses)
+        # orig.show_with_contours(map(approximate_polygon, central_fields))
 
 
         if len(central_fields) == 0:
